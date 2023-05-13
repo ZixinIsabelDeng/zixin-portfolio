@@ -28,7 +28,7 @@ const ContactMe = () => {
             fullWidth
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            sx={{ mb: 1, bgcolor: '#ffffff' }} // Add this to change background color to white
+            sx={{ mb: 1, bgcolor: '#ffffff' }}
           />
           <Button variant="contained" type="submit">
             Submit
